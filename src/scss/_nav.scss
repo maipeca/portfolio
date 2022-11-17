@@ -1,0 +1,17 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+
+    &__item {
+        color: $font-color-primary;
+        text-decoration: none;
+        position: relative;
+        &:hover {
+            animation: toTop;
+            animation-duration: 0.5s;
+        }
+    }
+}

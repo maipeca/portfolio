@@ -1,0 +1,34 @@
+$color-primary: #fdfcfc;
+$color-secondary: #ff0000;
+$font-color-primary: #270757;
+$font-default: "Lucida Console", "Courier New", monospace;
+$font-size-default: 1.0rem;
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-primary;
+    font-family: $font-default;
+    margin: 0;
+}
+
+.circle{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    background-color: $color-secondary;
+    ;
+}
+.demo{ stroke-dasharray: 1000;
+stroke-dashoffset: 0;
+}
+
+
+@import 'nav';
+@import 'animations';
+@import 'header';
+@import 'footer';

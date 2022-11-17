@@ -1,0 +1,22 @@
+@keyframes toTop {
+    from {
+        top: 0;
+    }
+    to {
+        top: -1rem;
+    }
+}
+
+
+.nav {
+  width: 200px;
+  height: 100px;
+  background: rgb(253, 253, 253);
+  position: relative;
+  animation: mymove 3s;
+}
+
+@keyframes mymove {
+  0%   {top: 0px; background: #ff0000; width: 100px;}
+  
+}
